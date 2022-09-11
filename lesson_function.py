@@ -1,18 +1,30 @@
 # calculator
-def myfunc(a:int, b:int):
+def gumarum(a:int, b:int):
     x = a + b
     return x
-# print(myfunc(int(input('Enter the number--->')),int(input('Enter the number--->'))))
-def myfunc1(a:int, b:int):
+def hanum(a:int, b:int):
     x = a - b
     return x
-# print(myfunc(int(input('Enter the number--->')),int(input('Enter the number--->'))))
-def myfunc2(a:int, b:int):
+def bazmapatakum(a:int, b:int):
     x = a * b
     return x
-# print(myfunc(int(input('Enter the number--->')),int(input('Enter the number--->'))))
-def myfunc3(a:int, b:int):
+def bajanum(a:int, b:int):
     x = a / b
     return x
-# print(myfunc(int(input('Enter the number--->')),int(input('Enter the number--->'))))
+def armat(a):
+    x = a ** 0.5
+    return x
+def astichan(a, b):
+    x = a ** b
+    return x
+def logaritm(a, b):
+    y = 1
+    while  b != int(round(a ** y)):
+            y += 0.1
+    return int(round(y))
+def floor(a):
+    return int(a)
+def ceil(a):
+    return int(a + 1)
+
 
