@@ -9,3 +9,8 @@ import lesson_function
 # import math
 # print(math.ceil(43.9))
 # print(lesson_function.logaritm(2, 64))
+# print(lesson_function.gumarum1(45, 23,))
+# print(lesson_function.max(45, 63))
+# print(lesson_function.multiply(45, 89, 2, 45))
+# print(lesson_function.string())
+x = input('Enter the string--->')
