@@ -213,20 +213,20 @@
 
 # Ex 108
 
-def func(x = int(input('Enter the number of teaspoons--->'))):
-    m = 0
-    n = 0
-    l = 0
-    while True:
-        if x > 48 and x - 48 > 48:
-            m += 1
-        elif x < 48 and x - 3 > 3:
-            n += 1
-        elif x < 3:
-            l += x
-            return m,'cups', n, 'tablespoons', l,'teaspoons'
-        else:
-            print(func())
+# def func(x = int(input('Enter the number of teaspoons--->'))):
+#     m = 0
+#     n = 0
+#     l = 0
+#     while True:
+#         if x > 48 and x - 48 > 48:
+#             m += 1
+#         elif x < 48 and x - 3 > 3:
+#             n += 1
+#         elif x < 3:
+#             l += x
+#             return m,'cups', n, 'tablespoons', l,'teaspoons'
+#         else:
+#             print(func())
 # EX 109
 # mydict = {'january':1, 'february':2, 'march':3, 'april':4, 'may':5, 'june':6, 'july':7, 'august':8, 'september':9, 'october':10, 'november':11, 'december':12}
 # def func(x = input('Enter the year--->'), y = input('Enter the month--->'), z = int(input('Enter the day--->'))):

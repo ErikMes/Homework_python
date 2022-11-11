@@ -56,3 +56,5 @@
     # print(j)
 
 # Ex 10
+import oop
+print(oop.oop_calculator('5 + 7').gumarum)
